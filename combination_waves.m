@@ -1,6 +1,9 @@
 clear
 clc
 
+%% Numerical Experiments
+% Simulation of combination waves
+
 X = 0 : 0.1 : 20;
 Y = 0 : 0.1 : 20;
 sigma = 1;
