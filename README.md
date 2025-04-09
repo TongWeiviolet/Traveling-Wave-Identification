@@ -2,19 +2,22 @@
 This repository contains the codes for our paper, entitled "Singular Value Decomposition of Dual Matrices and Its Application to Traveling Wave Identification in the Brain" [1]. 
 Specifically, we develop an approach to identify spatiotemporal patterns in the time-series data such as traveling waves using the singular value decomposition of dual matrices.
 
-## Codes
-### Algorithm
+## Algorithm
 * [dualsvd.m](dualsvd.m) is the code for the compact dual singular value decomposition (CDSVD) of the optimal rank-k approximation of dual matrices under the quasi-metric d<sub>*</sub>. For more details, please refer to Algorithm 3.1 in reference [1].
-### Numerical experiments
-#### (1) Simulations of standing waves and traveling waves
+## Numerical experiments
+### (1) Simulations of standing waves and traveling waves
 Corresponding to the figure 2 in reference [1].
 * [standing_wave_and_traveling_wave.m](standing_wave_and_traveling_wave.m) is the code for simulations of a pure standing wave and a pure traveling wave. 
 * [combination_waves.m](combination_waves.m) is the code for simulations of combination waves consisting of four standing waves and two traveling waves.
 
-#### (2) Small-scale road monitoring video data
+### (2) Small-scale road monitoring video data
 Corresponding to the figure 4 in reference [1].
+* [road_monitoring_video_data.mat](road_monitoring_video_data.mat) is the road monitoring video data.
+* [traveling.m](traveling.m) is the code for traveling wave identification in small-scale road monitoring video data.
 
-#### (3) Large-scale brain fMRI data
+
+
+### (3) Large-scale brain fMRI data
 Corresponding to the figure 5 in reference [1].
 
 ## References
