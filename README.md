@@ -16,8 +16,6 @@ Corresponding to the figure 4 in reference [1].
 * [road_monitoring_video_data.mat](Car/road_monitoring_video_data.mat) is the road monitoring video data.
 * [traveling.m](Car/traveling.m) is the code for traveling wave identification in the small-scale road monitoring video data.
 
-### (3) Large-scale brain fMRI data
-Corresponding to the figure 5 in reference [1].
 
 ## References
 [1] [Tong Wei](https://doi.org/10.1137/23M1556642), Weiyang Ding, and Yimin Wei, Singular Value Decomposition of Dual Matrices and Its Application to Traveling Wave Identification in the Brain, SIAM J. Matrix Anal. Appl., 45 (2024), pp. 634–660. 
