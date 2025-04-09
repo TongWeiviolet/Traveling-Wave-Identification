@@ -50,10 +50,6 @@ C6 = (Z1(:)*cos(omega1.*(1:T))-Z2(:)*sin(omega1.*(1:T))).*2;
 A6(:,:) = 2.*(-omega1.*Z1(:)*sin(omega1.*(1:T)) - omega1.*Z2(:)*cos(omega1.*(1:T)));
 
 C = C1 .* 0.9 + C2 .* 0.8 + C3 .* 0.7 + C4 .* 0.6 + C5 .* 0.2 + C6 .* 0.1;
-% A(:,:,1) = C;
-% A(:,:,2) = A1(:,:) .* 0.9 + A2(:,:) .* 0.8 + A3(:,:) .* 0.75 + A4(:,:) .* 0.7 + A5(:,:) .* 0.2 + A6(:,:) .* 0.1;
-% [U,S,~] = dualsvd(A,8);
-
 CC = C + randn(size(C)) .* 1e-3;
 A(:,:,1) = CC(:,1:198);
 A(:,:,2) = (-3.*CC(:,1:198) + 4.*CC(:,2:199)- CC(:,3:200))./2;
@@ -97,42 +93,3 @@ for i = 5:8
     title(['U_i(:,',num2str(i),')'],'FontSize',17);
     set(gca,'FontSize',17);
 end
-
-
-
-% for i = 1:4
-%     figure;
-%     imagesc(reshape(U(:,i,1),201,201));
-%     title(['U_s(:,',num2str(i),')']);
-%     axis square
-%     colorbar();
-%     colormap(jet);
-%     set(gca,'FontSize',30);
-% end
-% for i = 5:8
-%     figure;
-%     imagesc(reshape(U(:,i-4,2),201,201));
-%     title(['U_i(:,',num2str(i-4),')']);
-%     axis square
-%     colorbar();
-%     colormap(jet);
-%     set(gca,'FontSize',30);
-% end
-% for i = 9:12
-%     figure;
-%     imagesc(reshape(U(:,i-4,1),201,201));
-%     title(['U_s(:,',num2str(i-4),')']);
-%     axis square
-%     colorbar();
-%     colormap(jet);
-%     set(gca,'FontSize',30);
-% end
-% for i = 13:16
-%     figure;
-%     imagesc(reshape(U(:,i-8,2),201,201));
-%     title(['U_i(:,',num2str(i-8),')']);
-%     axis square
-%     colorbar();
-%     colormap(jet);
-%     set(gca,'FontSize',30);
-% end
