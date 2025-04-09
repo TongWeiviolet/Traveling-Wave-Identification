@@ -1,6 +1,9 @@
 clear
 clc
 
+%% Numerical Experiments
+% simulation of a pure standing wave and a pure traveling wave
+
 X = 0 : 0.1 : 5;
 Y = 0 : 0.1 : 10;
 
