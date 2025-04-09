@@ -8,7 +8,7 @@ Specifically, we develop an approach to identify spatiotemporal patterns in the 
 ## Numerical experiments
 ### (1) Simulations of standing waves and traveling waves
 Corresponding to the figure 2 in reference [1].
-* [standing_wave_and_traveling_wave.m](simulations/standing_wave_and_traveling_wave.m) is the code for simulations of a pure standing wave and a pure traveling wave. 
+* [standing_wave_and_traveling_wave.m](Simulations/standing_wave_and_traveling_wave.m) is the code for simulations of a pure standing wave and a pure traveling wave. 
 * [combination_waves.m](simulations/combination_waves.m) is the code for simulations of combination waves consisting of four standing waves and two traveling waves.
 
 ### (2) Small-scale road monitoring video data
