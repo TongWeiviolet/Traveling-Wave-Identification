@@ -9,12 +9,12 @@ Specifically, we develop an approach to identify spatiotemporal patterns in the 
 ### (1) Simulations of standing waves and traveling waves
 Corresponding to the figure 2 in reference [1].
 * [standing_wave_and_traveling_wave.m](Simulations/standing_wave_and_traveling_wave.m) is the code for simulations of a pure standing wave and a pure traveling wave. 
-* [combination_waves.m](simulations/combination_waves.m) is the code for simulations of combination waves consisting of four standing waves and two traveling waves.
+* [combination_waves.m](Simulations/combination_waves.m) is the code for simulations of combination waves consisting of four standing waves and two traveling waves.
 
 ### (2) Small-scale road monitoring video data
 Corresponding to the figure 4 in reference [1].
-* [road_monitoring_video_data.mat](car/road_monitoring_video_data.mat) is the road monitoring video data.
-* [traveling.m](car/traveling.m) is the code for traveling wave identification in small-scale road monitoring video data.
+* [road_monitoring_video_data.mat](Car/road_monitoring_video_data.mat) is the road monitoring video data.
+* [traveling.m](Car/traveling.m) is the code for traveling wave identification in small-scale road monitoring video data.
 
 ### (3) Large-scale brain fMRI data
 Corresponding to the figure 5 in reference [1].
